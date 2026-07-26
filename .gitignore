@@ -1,0 +1,78 @@
+# Dependencies (never commit these — huge folders)
+node_modules/
+.pnpm-store/
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# Next.js build output (generated, not source)
+.next/
+out/
+build
+
+# Environment files (contain real secrets)
+.env
+.env.*
+.env*.local
+.env.local
+!.env.local.example
+
+# Supabase temp files
+supabase/.temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.pem
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Debug logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# upload files
+apps/web/uploads/certifications/*
+apps/web/uploads/deliverables/*
+!apps/web/uploads/certifications/.gitkeep
+!apps/web/uploads/deliverables/.gitkeep
+
+# Diagnostic & Audit Files
+eslint-report.json
+parse.js
+allX_files_utf8.txt
+api_files.txt
+api_files_utf8.txt
+app_files_utf8.txt
+
+# Python (FastAPI backend)
+__pycache__/
+*.pyc
+*.pyo
+apps/api/venv/
+apps/api/.env
+
+# Vite build output
+apps/web-vite/dist/
+
+# ML model cache
+apps/api/models_cache/
+

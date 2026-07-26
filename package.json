@@ -1,0 +1,13 @@
+{
+  "name": "cybersec-marketplace",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.96.2",
+    "resend": "^4.8.0"
+  }
+}
